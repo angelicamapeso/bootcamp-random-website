@@ -1,0 +1,18 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Font Families*/
+/*Heading fonts*/
+h1,h2,h3 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+}
+/*Main font*/
+body {
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
