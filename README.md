@@ -1,4 +1,4 @@
-# My Website Playground
+# A Bootcamp-Inspired Random Website
 A website for really (and I mean *really*) random things. 
 
 This is based off of one of the practice activies from the [Carleton University Coding Bootcamp](https://bootcamp.carleton.ca/). The original instructions were to create an HTML file with all the required tags as well as an embedded image and three links. The bonus requirements included the other really random items you see on the page:
@@ -7,8 +7,10 @@ This is based off of one of the practice activies from the [Carleton University 
   - An animal classification table
   - An embedded YouTube video
 
-## Obviously, I went a little overboard. Let me tell you why.  
-Ultimately, I just really wanted a place to flex some design skills (*heh, get it?*) and practice using concepts/resources introduced in class. So far, the project contains:
+## Why did I go overboard?
+Because I'm an overachiever.  
+
+*And* I just really wanted a place to flex some design skills (*heh, get it?*) and practice using concepts/resources introduced in class. So far, the project contains:
 
   ## Concepts
 
