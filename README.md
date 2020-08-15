@@ -10,7 +10,7 @@ This is based off of one of the practice activies from the [Carleton University 
 ## Why did I go overboard?
 Because I'm an overachiever.  
 
-*And* I just really wanted a place to flex some design skills (*heh, get it?*) and practice using concepts/resources introduced in class. So far, the project contains:
+*And* I just really wanted a place to flex some design skills (*heh, get it?*) while practicing using concepts/resources introduced in class. So far, the project contains:
 
   ## Concepts
 
