@@ -18,12 +18,23 @@ body {
   color: #211C1E;
 }
 
+/*Text styles*/
+.cyan-text, 
+.magenta-text, 
+.yellow-text {
+  font-weight: bold;
+}
+
 .cyan-text{
   color: #21B3C0;
 }
 
 .magenta-text{
   color: #D90368;
+}
+
+.yellow-text{
+  color: #E4BB25;
 }
 
 .yellow-link, 
