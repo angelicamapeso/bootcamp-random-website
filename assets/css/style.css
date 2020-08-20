@@ -1,0 +1,46 @@
+/*Colours
+
+Yellow: #E4BB25;
+Gray: #E3DEE0;
+Black: #211C1E;
+Cyan: #21B3C0;
+Magenta: #D90368;
+
+*/
+
+/*Body*/
+body {
+  width: 100%;
+
+  /*Using system fonts*/
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+  color: #211C1E;
+}
+
+/*Header*/
+ header {
+   background-color: #211C1E;
+   padding: 20px;
+ }
+
+ /*Nav link*/
+nav a {
+  font-size: 2rem;
+  color: #21B3C0;
+}
+
+nav a:hover, 
+nav a:focus{
+  color: #0F7C85;
+}
+
+nav a:active,
+nav a:active{
+  color: #D90368;
+}
+
+/*Hero*/
+.hero{
+  
+}
