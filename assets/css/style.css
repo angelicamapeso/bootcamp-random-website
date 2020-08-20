@@ -18,6 +18,15 @@ body {
   color: #211C1E;
 }
 
+/*General element style*/
+section, footer {
+  padding: 30px;
+}
+
+#hero, #youtube-videos{
+  background-color: #E3DEE0;
+}
+
 /*Text styles*/
 .cyan-text, 
 .magenta-text, 
@@ -41,12 +50,12 @@ body {
 .element-tag {
   padding: 5px 10px;
   border-radius: 4px;
+  display: inline-block;
 }
 
 .element-tag {
   background-color: #211C1E;
   color: #E3DEE0;
-  display: inline;
 }
 
 .yellow-link {
