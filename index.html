@@ -12,72 +12,98 @@
     <!--CSS style-->
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
+  
   <body>
     <!--Header-->
     <header>
-      <h1>This is a practice!</h1>
-      <img src="assets/images/oceanImage.jpg" alt="A birds-eye-view of the ocean"/>
+      <nav>
+        <a href="index.html" aria-label="Home"><i class="fa fa-code" aria-hidden="true"></i></a>
+      </nav>
     </header>
 
     <main id="content">
       
+      <!--Hero section-->
+      <section class="hero">
+        <h1><span>Hey!</span>Welcome to my practice site!</h1>
+        <p>There's a lot of random stuff around here; I know. Bootcamp made me do it.</p>
+        <p>If you're interested, <a href="https://angelicamapeso.github.io/bootcamp-random-website/">check out the repo.</a></p>
+        <p>&#35;&#36;&#37;</p>
+      </section>
+
       <!--Sandwich section-->
       <section class="how-to-make-a-sanwich">
-        <h2>How to make a sandwich:</h2>
+        <p aria-hidden="true"><i class="fa fa-tag" aria-hidden="true"></i>ordered list</p>
+        <h2><span aria-hidden="true">&#35;&#35; </span>How to make a sandwich:</h2>
         <ol>
-          <li>Get bread</li>
-          <li>Get nutella</li>
-          <li>Smear</li>
-          <li>Smush</li>
+          <li>Get the bread.</li>
+          <li>Get the stuff that goes between the bread.</li>
+          <li>Smush.</li>
+          <li>(Optional)<br/>Listen as programmers everywhere crings at these instructions.</li>
         </ol>
       </section>
 
        <!--Music section-->
       <section class="music">
-        <h2>Music</h2>
-
-        <h3>Bands/Musicians I like:</h3>
+        <p aria-hidden="true"><i class="fa fa-tag" aria-hidden="true"></i>unordered list</p>
+        <h2><span aria-hidden="true">&#35;&#35; </span>Bands and Musicians I like</h2>
+        <p>Yes. These are real photos of the musicians.</p>
+        <p>Squint really hard. They're there!</p>
+        <del>(Some imagination required)</del>
         <ul>
           <li>
             <div id="paramore" class="artist-image-container"></div>
+            <span>Photo by <a href="https://unsplash.com/@dariusbird?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">DIAO DARIUS</a> on <a href="https://unsplash.com/s/photos/music-red?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             <p>Paramore</p>
           </li>
           <li>
             <div id="panic" class="artist-image-container"></div>
+            <span>Photo by <a href="https://unsplash.com/@fifernando?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fidel Fernando</a> on <a href="https://unsplash.com/s/photos/disco-ball?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             <p>Panic! at the Disco</p>
           </li>
           <li>
             <div id="amine" class="artist-image-container"></div>
+            <span>Photo by <a href="https://unsplash.com/@timberfoster?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim Foster</a> on <a href="https://unsplash.com/s/photos/banana-yellow?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             <p>Aminé</p>
           </li>
           <li>
             <div id="kehlani" class="artist-image-container"></div>
+            <span>Photo by <a href="https://unsplash.com/@bernardhermant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bernard Hermant</a> on <a href="https://unsplash.com/s/photos/sunflower?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             <p>Kehlani</p>
           </li>
           <li>
             <div id="doja" class="artist-image-container"></div>
+            <span>Photo by <a href="https://unsplash.com/@scottwebb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Scott Webb</a> on <a href="https://unsplash.com/s/photos/cat-pink?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             <p>
               Doja Cat
             </p>
           </li>
         </ul>
-  
-        <h3>Video of my dude Aminé</h3>
+      </section>
+      
+      <!--Youtube video section-->
+      <section>
+        <p aria-hidden="true"><i class="fa fa-tag" aria-hidden="true"></i> YouTube video</p>
+        <h2><span aria-hidden="true">&#35;&#35; </span>Youtube Videos (feat. Aminé)</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/j_-2dUvlEdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-        <h3>Check out these additional bangers</h3>
-        <a href="https://www.youtube.com/watch?v=SsKT0s5J8ko">Mac Miller - Self Care</a>
-        <a href="https://www.youtube.com/watch?v=qQjMMEWaWsc">RICH BRIAN & CHUNG HA - THESE NIGHTS (OFFICIAL VIDEO)</a>
-        <a href="https://www.youtube.com/watch?v=X2kPLQEFR6Y">Doja Cat - Juicy | A COLORS SHOW</a>
+        <h3><span aria-hidden="true">&#35;&#35;&#35; </span>Check out these additional bangers</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=SsKT0s5J8ko">Mac Miller - Self Care</a></li>
+          <li><a href="https://www.youtube.com/watch?v=qQjMMEWaWsc">RICH BRIAN & CHUNG HA - THESE NIGHTS (OFFICIAL VIDEO)</a></li>
+          <li><a href="https://www.youtube.com/watch?v=X2kPLQEFR6Y">Doja Cat - Juicy | A COLORS SHOW</a></li>
+        </ul>
       </section>
       
       <!--Animal section-->
       <section class="animals">
-        <h2>We got animals, too!</h2>
+        <p aria-hidden="true"><i class="fa fa-tag" aria-hidden="true"></i> table</p>
+        <h2><span aria-hidden="true">&#35;&#35; </span>Animal Classification</h2>
+        <p>Because this is what you <em>really</em> came here for, right?</p>
       <table>
         <tr>
           <th>
-            <i class="fa fa-tag" aria-hidden="true"></i> Animal Class
+            <i class="fa fa-info-circle" aria-hidden="true"></i> Animal Class
             </th>
           <th>
             <i class="fa fa-paw" aria-hidden="true"></i> Animal
@@ -105,7 +131,9 @@
 
     <!--Footer-->
     <footer class="social-media-links">
-      <h2>Here's the websites I go on:</h2>
+      <p>Woah woah. Someone made it to the end?</p>
+      <p>What?</p>
+      <p>Well, thanks for visiting. Here's a final list of links:</p>
       <ul>
         <li><a href="https://www.google.com" target="_blank"><i class="fa fa-google" aria-hidden="true"></i> Google</a></li>
         <li><strong><a href="https://www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i> Youtube</a></strong></li>
