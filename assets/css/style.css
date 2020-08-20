@@ -27,6 +27,13 @@ section, footer {
   background-color: #E3DEE0;
 }
 
+.card {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 5px 4px lightgray;
+}
+
 /*List*/
 ul, ol {
   list-style: none;
@@ -116,4 +123,8 @@ nav a:active{
   color: #D90368;
 }
 
-/*Hero*/
+/*Footer*/
+footer {
+  background-color: #211C1E;
+  color: #E3DEE0;
+}
