@@ -27,7 +27,28 @@ section, footer {
   background-color: #E3DEE0;
 }
 
+/*List*/
+ul, ol {
+  list-style: none;
+}
+
 /*Text styles*/
+
+/*Font awesome*/
+.fa {
+  margin-right: 10px;
+}
+
+/*heading and paragraph*/
+.heading-light {
+  font-weight: lighter;
+}
+
+p {
+  margin-bottom: 30px; 
+}
+
+/*coloured text*/
 .cyan-text, 
 .magenta-text, 
 .yellow-text {
@@ -71,14 +92,6 @@ section, footer {
 .yellow-link:active{
   background-color: #D90368;
   color: #E3DEE0;
-}
-
-.fa {
-  margin-right: 10px;
-}
-
-.heading-light {
-  font-weight: lighter;
 }
 
 /*Header*/
