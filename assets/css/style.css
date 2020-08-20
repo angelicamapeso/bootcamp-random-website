@@ -42,15 +42,26 @@ body {
   padding: 5px 10px;
   border-radius: 4px;
 }
-.yellow-link {
-  background-color: #E4BB25;
-  color: #211C1E;
-}
 
 .element-tag {
   background-color: #211C1E;
   color: #E3DEE0;
   display: inline;
+}
+
+.yellow-link {
+  background-color: #E4BB25;
+  color: #211C1E;
+}
+
+.yellow-link:hover, 
+.yellow-link:focus{
+  background-color: #bd9918;
+}
+
+.yellow-link:active{
+  background-color: #D90368;
+  color: #E3DEE0;
 }
 
 .fa {
