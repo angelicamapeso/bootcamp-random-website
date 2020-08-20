@@ -18,6 +18,21 @@ body {
   color: #211C1E;
 }
 
+.cyan-text{
+  color: #21B3C0;
+}
+
+.magenta-text{
+  color: #D90368;
+}
+
+.yellow-link {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #E4BB25;
+  color: #211C1E;
+}
+
 /*Header*/
  header {
    background-color: #211C1E;
@@ -41,6 +56,3 @@ nav a:active{
 }
 
 /*Hero*/
-.hero{
-  
-}
