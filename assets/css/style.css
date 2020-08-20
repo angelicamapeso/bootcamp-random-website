@@ -26,11 +26,19 @@ body {
   color: #D90368;
 }
 
-.yellow-link {
+.yellow-link, 
+.element-tag {
   padding: 5px;
   border-radius: 4px;
+}
+.yellow-link {
   background-color: #E4BB25;
   color: #211C1E;
+}
+
+.element-tag {
+  background-color: #211C1E;
+  color: #E3DEE0;
 }
 
 /*Header*/
