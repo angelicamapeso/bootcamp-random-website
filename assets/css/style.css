@@ -77,6 +77,10 @@ section, footer {
   margin-right: 10px;
 }
 
+.heading-light {
+  font-weight: lighter;
+}
+
 /*Header*/
  header {
    background-color: #211C1E;
