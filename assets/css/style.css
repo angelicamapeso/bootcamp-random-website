@@ -28,7 +28,7 @@ body {
 
 .yellow-link, 
 .element-tag {
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 4px;
 }
 .yellow-link {
@@ -39,6 +39,11 @@ body {
 .element-tag {
   background-color: #211C1E;
   color: #E3DEE0;
+  display: inline;
+}
+
+.fa {
+  margin-right: 10px;
 }
 
 /*Header*/
