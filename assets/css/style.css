@@ -8,7 +8,7 @@ Magenta: #D90368;
 
 */
 
-/*Body*/
+/********* Body **********/
 body {
   width: 100%;
 
@@ -18,7 +18,7 @@ body {
   color: #211C1E;
 }
 
-/*General element style*/
+/********* General element style **********/
 section, footer {
   padding: 30px;
 }
@@ -27,19 +27,12 @@ section, footer {
   background-color: #E3DEE0;
 }
 
-.card {
-  width: 80%;
-  margin: 20px auto;
-  border-radius: 4px;
-  box-shadow: 0 4px 5px 4px lightgray;
-}
-
 /*List*/
 ul, ol {
   list-style: none;
 }
 
-/*Text styles*/
+/******** Text styles*********/
 
 /*Font awesome*/
 .fa {
@@ -101,6 +94,8 @@ p {
   color: #E3DEE0;
 }
 
+
+/******* BODY ********/
 /*Header*/
  header {
    background-color: #211C1E;
@@ -122,6 +117,21 @@ nav a:active,
 nav a:active{
   color: #D90368;
 }
+
+/*Cards*/
+#card-sections{
+  position: relative;
+  top: -50px;
+}
+
+.card {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 5px 4px lightgray;
+  background-color: white;
+}
+
 
 /*Footer*/
 footer {
