@@ -75,6 +75,7 @@ p {
 }
 
 .element-tag {
+  margin-bottom: 10px;
   background-color: #211C1E;
   color: #E3DEE0;
 }
