@@ -33,7 +33,6 @@ ul, ol {
 }
 
 /******** Text styles*********/
-
 /*Font awesome*/
 .fa {
   margin-right: 10px;
@@ -117,7 +116,6 @@ nav a:focus{
   color: #0F7C85;
 }
 
-
 /*Cards*/
 #card-sections{
   position: relative;
@@ -132,6 +130,10 @@ nav a:focus{
   background-color: white;
 }
 
+.content {
+  padding-left: 2.4rem;
+}
+
 /*Footer*/
 footer {
   background-color: #211C1E;
@@ -142,6 +144,7 @@ footer {
 /*** Ordered list ****/
 ol {
   counter-reset: styled-counter;
+  padding: 0
 }
 
 ol li {
@@ -158,7 +161,7 @@ ol li::before {
   line-height: 50px;
   width: 50px;
   height: 50px;
-  margin: 5px 15px;
+  margin: 5px 15px 5px 0;
 
   display: inline-block;
   background: #E4BB25;
@@ -174,4 +177,9 @@ li:last-child {
 li:last-child::before {
   background: #D90368;
   color: white;
+}
+
+/*** Unordered list ****/
+ul {
+  padding: 0;
 }
