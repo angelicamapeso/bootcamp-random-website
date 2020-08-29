@@ -55,11 +55,15 @@ p {
   font-weight: bold;
 }
 
-.cyan-text{
+.cyan-text, 
+nav a:hover, 
+nav a:focus {
   color: #21B3C0;
 }
 
-.magenta-text{
+.magenta-text, 
+nav a:active,
+nav a:active {
   color: #D90368;
 }
 
@@ -106,7 +110,6 @@ p {
  /*Nav link*/
 nav a {
   font-size: 2rem;
-  color: #21B3C0;
 }
 
 nav a:hover, 
@@ -114,10 +117,6 @@ nav a:focus{
   color: #0F7C85;
 }
 
-nav a:active,
-nav a:active{
-  color: #D90368;
-}
 
 /*Cards*/
 #card-sections{
@@ -133,9 +132,46 @@ nav a:active{
   background-color: white;
 }
 
-
 /*Footer*/
 footer {
   background-color: #211C1E;
   color: #E3DEE0;
+}
+
+/******* SECTION STYLING ********/
+/*** Ordered list ****/
+ol {
+  counter-reset: styled-counter;
+}
+
+ol li {
+  counter-increment: styled-counter;
+}
+
+ol li::before {
+  content: counter(styled-counter);
+  text-align: center;
+  font-size: 1.25rem;
+
+  box-sizing: border-box;
+  /*these must all be the same*/
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 5px 15px;
+
+  display: inline-block;
+  background: #E4BB25;
+  border-radius: 50%; 
+}
+
+li:last-child {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+}
+
+li:last-child::before {
+  background: #D90368;
+  color: white;
 }
