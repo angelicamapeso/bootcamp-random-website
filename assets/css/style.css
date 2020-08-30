@@ -380,6 +380,15 @@ footer p:last-child {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  footer {
+    padding: 50px;
+  }
+
+  #hero p:last-child, 
+  footer p:last-child {
+    margin:0;
+  }
+
 }
 
 @media only screen and (min-width: 1200px ) {
@@ -389,7 +398,7 @@ footer p:last-child {
 
     display: grid;
     grid-template-columns: 2fr 3fr;
-    grid-template-rows: 35% 20%;
+    grid-template-rows: 37% 10%;
     grid-column-gap: 25px;
     grid-row-gap: 25px
 
@@ -410,7 +419,7 @@ footer p:last-child {
 
   #music-list {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 20px;
+    grid-column-gap: 10px;
   }
 
   #youtube-videos {
@@ -419,6 +428,14 @@ footer p:last-child {
 
   #animals {
     grid-area: 3 / 2 / 4 / 2;
+  }
+
+  #hero {
+    text-align: center;
+  }
+
+  #hero p:last-child {
+    text-align: right;
   }
 
 }
