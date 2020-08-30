@@ -63,9 +63,13 @@ p {
 }
 
 .cyan-text, 
+nav a{
+  color: #21B3C0;
+}
+
 nav a:hover, 
 nav a:focus {
-  color: #21B3C0;
+  color: #0F7C85;
 }
 
 .magenta-text, 
@@ -138,6 +142,18 @@ nav a:active {
   color: #211C1E;
 }
 
+.yellow-link, 
+.cyan-link, 
+.magenta-link, 
+nav a {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+nav a {
+  transition-property: color;
+}
 
 /******* BODY ********/
 /*Header*/
@@ -149,11 +165,6 @@ nav a:active {
  /*Nav link*/
 nav a {
   font-size: 2rem;
-}
-
-nav a:hover, 
-nav a:focus{
-  color: #0F7C85;
 }
 
 /*Cards*/
