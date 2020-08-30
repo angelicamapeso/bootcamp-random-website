@@ -198,6 +198,10 @@ ul {
   align-items: center;
 }
 
+#music-list li p {
+  font-weight: bold;
+}
+
 /*Responsive Square, 
 https://spin.atomicobject.com/2015/07/14/css-responsive-square/
 by Bobby Kilpatrick
@@ -205,14 +209,34 @@ July 14, 2015
 */
 .artist-image-container{
   width: 100%;
-  border: 1px solid red;
   border-radius: 50%;
 
-  z-index: 99;
+  background-size: cover;
+  background-position: center;
 }
 
 .artist-image-container::after{
   content: '';
   display: block;
   padding-bottom: 100%;
+}
+
+#paramore {
+  background-image: url('../images/paramore.jpg');
+}
+
+#panic {
+  background-image: url('../images/panic.jpg');
+}
+
+#amine {
+  background-image: url('../images/amine.jpg');
+}
+
+#kehlani {
+  background-image: url('../images/kehlani.jpg');
+}
+
+#doja {
+  background-image: url('../images/doja.jpg');
 }
