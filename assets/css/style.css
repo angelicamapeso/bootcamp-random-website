@@ -12,8 +12,14 @@ Dark Magenta: #751844;
 */
 
 /********* Body **********/
+html {
+  height: 100%;
+}
 body {
   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 
   /*Using system fonts*/
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -186,6 +192,7 @@ nav a {
 footer {
   background-color: #211C1E;
   color: #E3DEE0;
+  margin-top: auto;
 }
 
 /******* SECTION STYLING ********/
@@ -395,6 +402,23 @@ footer p:last-child {
     padding: 50px;
   }
 
+  footer ul {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+  }
+  footer ul li {
+    flex-grow: 1;
+    padding: 0 20px;
+  }
+  footer ul li a {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
   #hero p:last-child, 
   footer p:last-child {
     margin:0;
@@ -404,7 +428,6 @@ footer p:last-child {
 
 @media only screen and (min-width: 1200px ) {
   #card-sections {
-    height: 1050px;
     padding: 0 50px;
 
     display: grid;
