@@ -213,6 +213,10 @@ July 14, 2015
 
   background-size: cover;
   background-position: center;
+
+  transition-property: transform; 
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 .artist-image-container::after{
@@ -225,18 +229,47 @@ July 14, 2015
   background-image: url('../images/paramore.jpg');
 }
 
+#paramore:hover{
+  transform: translate(-10px, 0);
+}
+
 #panic {
   background-image: url('../images/panic.jpg');
+}
+
+#panic:hover{
+  transform: translate(10px, 0);
 }
 
 #amine {
   background-image: url('../images/amine.jpg');
 }
 
+#amine:hover{
+  transform: rotate(20deg);
+}
+
 #kehlani {
   background-image: url('../images/kehlani.jpg');
 }
 
+#kehlani:hover {
+  transform: scale(1.05);
+}
+
 #doja {
   background-image: url('../images/doja.jpg');
+}
+
+#doja:hover{
+  animation-name: doja-cat;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes doja-cat {
+  0% {transform: translate(0, 0)}
+  50% {transform:translate(0, -10px)}
+  100% {transform: translate(0, 0)}
 }
