@@ -1,10 +1,13 @@
 /*Colours
 
 Yellow: #E4BB25;
+Dark Yellow: #bd9918;
 Gray: #E3DEE0;
 Black: #211C1E;
 Cyan: #21B3C0;
+Dark cyan: #0F7C85;
 Magenta: #D90368;
+Dark Magenta: #751844;
 
 */
 
@@ -75,7 +78,9 @@ nav a:active {
   color: #E4BB25;
 }
 
-.yellow-link, 
+.yellow-link,
+.cyan-link, 
+.magenta-link, 
 .element-tag {
   padding: 5px 10px;
   border-radius: 4px;
@@ -101,6 +106,36 @@ nav a:active {
 .yellow-link:active{
   background-color: #D90368;
   color: #E3DEE0;
+}
+
+.cyan-link {
+  background-color: #21B3C0;
+  color: #211C1E;
+}
+
+.cyan-link:hover, 
+.cyan-link:focus {
+  background-color: #0F7C85;
+}
+
+.cyan-link:active{
+  background-color: #E4BB25;
+  color: #211C1E;
+}
+
+.magenta-link{
+  background-color: #D90368;
+  color: #E3DEE0;
+}
+
+.magenta-link:hover, 
+.magenta-link:focus {
+  background-color: #751844;
+}
+
+.magenta-link:active {
+  background-color: #21B3C0;
+  color: #211C1E;
 }
 
 
@@ -324,6 +359,11 @@ th:last-child {
 
 tr:nth-child(odd) {
   background-color: #E3DEE0;
+}
+
+/*footer*/
+footer p:last-child {
+  text-align: right;
 }
 
 
