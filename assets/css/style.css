@@ -203,7 +203,6 @@ footer {
 ol {
   counter-reset: styled-counter;
   padding: 0;
-  align-self: flex-end;
 }
 
 ol li {
@@ -251,7 +250,7 @@ ul li {
   column-gap: 10%;
   row-gap: 20px;
   flex-grow: 1;
-  align-items: center;
+  align-content: center;
 }
 
 #music-list li {
@@ -263,6 +262,7 @@ ul li {
 #music-list li p {
   font-weight: bold;
   margin-bottom: 0;
+  text-align: center;
 }
 
 /*Responsive Square, 
