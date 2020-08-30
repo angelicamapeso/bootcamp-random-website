@@ -12,11 +12,15 @@ Because I'm an overachiever.
 
 *And* I just really wanted a place to flex some design skills (*heh, get it?*) while getting practice with concepts/resources introduced in class. So far, the project contains:
 
-  ## Concepts
+### CSS
+- Flexbox
+- CSS Grid
+- CSS Animations
+- CSS Transitions
+- Breakpoints
 
-
-  ## Resources
-  - [Normalize.css](https://necolas.github.io/normalize.css/)
-  - [FontAwesome 4.7.0](https://fontawesome.com/v4.7.0/)
+## Resources
+- [Normalize.css](https://necolas.github.io/normalize.css/)
+- [FontAwesome 4.7.0](https://fontawesome.com/v4.7.0/)
 
 All images are from [Unsplash](https://unsplash.com/).
