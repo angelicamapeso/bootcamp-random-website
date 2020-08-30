@@ -47,6 +47,11 @@ p {
   margin-bottom: 30px; 
 }
 
+.h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /*coloured text*/
 .cyan-text, 
 .magenta-text, 
@@ -181,6 +186,10 @@ ul {
   padding: 0;
 }
 
+ul li {
+  margin-bottom: 10px;
+}
+
 #music-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -291,7 +300,30 @@ March 11, 2020
   height: 100%;
 }
 
-#youtube-videos ul li {
-  margin-bottom: 10px;
+/*Animal classification*/
+table {
+  width: 100%;
 }
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: #211C1E;
+  color: #E3DEE0;
+}
+
+th:first-child {
+  border-radius: 4px 0 0 0;
+}
+
+th:last-child {
+  border-radius: 0 4px 0 0;
+}
+
+tr:nth-child(odd) {
+  background-color: #E3DEE0;
+}
+
 
