@@ -165,6 +165,7 @@ nav a:focus{
 .card {
   width: 80%;
   margin: 20px auto;
+  box-sizing: border-box;
   border-radius: 4px;
   box-shadow: 0 4px 5px 4px lightgray;
   background-color: white;
@@ -229,7 +230,7 @@ ul li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  column-gap: 20px;
+  column-gap: 10%;
   row-gap: 20px;
 }
 
@@ -366,4 +367,63 @@ footer p:last-child {
   text-align: right;
 }
 
+/**********BREAKPOINTS****************/
+@media only screen and (min-width: 768px) {
+  ol{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  ol li {
+    padding-bottom: 30px;
+  }
+
+  #music-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media only screen and (min-width: 1200px ) {
+  #card-sections {
+    height: 1050px;
+    padding: 0 50px;
+
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 35% 20%;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px
+
+  }
+
+  .card {
+    width: 100%;
+    margin: 0;
+  }
+
+  #how-to-make-a-sandwich {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  #music {
+    grid-area: 1 / 2 / 3 / 2;
+  }
+
+  #music-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+
+  #youtube-videos {
+    grid-area: 2 / 1 / 4 / 1;
+  }
+
+  #animals {
+    grid-area: 3 / 2 / 4 / 2;
+  }
+
+}
 
