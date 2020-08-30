@@ -20,7 +20,7 @@ body {
 
 /********* General element style **********/
 section, footer {
-  padding: 30px;
+  padding: 5%;
 }
 
 #hero, #youtube-videos{
@@ -168,18 +168,51 @@ ol li::before {
   border-radius: 50%; 
 }
 
-li:last-child {
+#optional-step {
   overflow: auto;
   display: flex;
   align-items: center;
 }
 
-li:last-child::before {
+#optional-step::before {
   background: #D90368;
   color: white;
 }
 
-/*** Unordered list ****/
+/*** Unordered list: Music list ****/
 ul {
   padding: 0;
+}
+
+#music-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+#music-list li {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/*Responsive Square, 
+https://spin.atomicobject.com/2015/07/14/css-responsive-square/
+by Bobby Kilpatrick
+July 14, 2015
+*/
+.artist-image-container{
+  width: 100%;
+  border: 1px solid red;
+  border-radius: 50%;
+
+  z-index: 99;
+}
+
+.artist-image-container::after{
+  content: '';
+  display: block;
+  padding-bottom: 100%;
 }
