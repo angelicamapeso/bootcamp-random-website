@@ -149,6 +149,8 @@ ol {
 
 ol li {
   counter-increment: styled-counter;
+  display: flex;
+  align-items: center;
 }
 
 ol li::before {
@@ -163,15 +165,10 @@ ol li::before {
   height: 50px;
   margin: 5px 15px 5px 0;
 
+  flex-shrink: 0;
   display: inline-block;
   background: #E4BB25;
   border-radius: 50%; 
-}
-
-#optional-step {
-  overflow: auto;
-  display: flex;
-  align-items: center;
 }
 
 #optional-step::before {
